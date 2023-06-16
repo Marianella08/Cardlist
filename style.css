@@ -7,32 +7,32 @@ body {
 
 .main {
     height: auto;
-    border: 50px solid #96b8df;
-    background-color: #96b8df;
+    border: 50px solid #96B8D6;
+    background-color: #96B8D6;
     align-items: center;
 }
 
 .cardsConteiner {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 50px;
+    display: flex;
+    grid-gap: 40px;
     margin-left: 20px;
+    flex-wrap: wrap;
 }
 
 .card {
     width: 200px;
     height: auto;
-    border: 5px solid #b08fdb;
-    background-color: #b08fdb;
-    display: grid;
+    border: 5px solid #2B5B86;
+    background-color: #2B5B86;
+    display:2B5B86;
     grid-gap: 5px;
     border-radius: 5px;
 }
 
 .task {
-    color: #747474;
+    color: #ffffff;
     height: auto;
     width: auto;
-    border: 5px solid #fcec93;
-    background-color: #fcec93;
+    border: 5px solid #44729B;
+    background-color: #44729B;
 }
